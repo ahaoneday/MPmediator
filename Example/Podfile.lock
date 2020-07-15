@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MPmetiator (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MPmetiator (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MPmetiator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MPmetiator: 721da3a87e54f8351acd1bde13ef37f193d25031
+
+PODFILE CHECKSUM: e0375805ba9faa859e08d23211b22938abb577d3
+
+COCOAPODS: 1.7.5

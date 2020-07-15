@@ -1,0 +1,6 @@
+framework module MPmetiator {
+  umbrella header "MPmetiator-umbrella.h"
+
+  export *
+  module * { export * }
+}
